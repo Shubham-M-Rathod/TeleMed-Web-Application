@@ -1,0 +1,21 @@
+.card
+{
+    margin-bottom:20px;
+    padding:10px;
+    width: 25vw;
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover
+{
+    box-shadow: none;
+}
+
+.dp-outer
+{
+    display: block;
+    padding-top:5vh;
+    padding-left: 5vh;
+}

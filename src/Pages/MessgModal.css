@@ -1,0 +1,19 @@
+.messages p
+{
+    opacity: 0;
+    height:0px;
+    transition: all 500ms ease-in-out;
+}
+
+.messages:hover p
+{
+    opacity: 1;
+    height: 6px;
+}
+
+#main
+{
+    border: none;
+    background: none;
+    color:white;
+}

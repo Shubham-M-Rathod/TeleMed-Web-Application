@@ -1,0 +1,40 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+
+.doctor-outer
+{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    min-width: 500px;
+    border-radius: 45px;
+    position: absolute;
+    top:12vh;
+    padding: 35px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.214);
+    box-shadow: 1px 5px 30px rgb(0, 0, 0);
+}
+
+.bohot-outer
+{
+    background: url(https://i.pinimg.com/originals/21/54/cd/2154cd17b398cf202ab361615fe313af.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit
+{
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0);
+}
+
